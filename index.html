@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable= no">
+    <title>Student Money Management</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="mtb-37">
+        <div class="container">
+            <div class="headingTitle textKeppel textCenter">
+                <h1 class="headingTitleText">Student money <span class="textPastelGreen">management</span></h1>
+            </div> <!-- headingTitle -->
+        </div> <!-- container -->
+    </header> <!-- header -->
+
+    <section class="managementSection overfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="managementPicPart mr-30">
+                        <img src="img/money_manage.jpg" alt="Money Manage Image" class="manageImg">
+                    </div>
+                </div> <!-- col 6 -->
+                <div class="col-6">
+                    <div class="managementContentPart bgAlabaster">
+                        <div class="incomePart textCenter">
+                            <h3 class="incomeTitle">Income</h3>
+                            <div class="incomeField">
+                                <label class="incomeFieldTitle fontSize-18 fontWeightNormal mr-15">Income:</label>
+                                <input id="incomeInputValue" type="text" class="incomeFieldBox" placeholder="Please enter your income amount">
+                            </div>
+                        </div> <!-- incomePart -->
+                        <div class="expensesPart">
+                            <h3 class="expensesPartTitle textCenter">Expenses</h3>
+                            <div class="expensesField">
+                                <label class="expensesFieldTitle fontSize-18 fontWeightNormal mr-15">Food:</label>
+                                <input id="foodInputValue" type="text" class="expensesFieldBox mb-20" placeholder="Please enter your Food amount"> <br>
+                                <label class="expensesFieldTitle fontSize-18 fontWeightNormal mr-15">Rent: </label>
+                                <input id="rentInputValue" type="text" class="expensesFieldBox mb-20" placeholder="Please enter your Rent amount"> <br>
+                                <label class="expensesFieldTitle fontSize-18 fontWeightNormal mr-15">Cloth:</label>
+                                <input id="clothesInputValue" type="text" class="expensesFieldBox mb-20" placeholder="Please enter your Clothes amount"> <br>
+                                <button id="calculationBtn" class="calculateBtn" type="button">Calculate</button>
+                                <h3 class="totalExpenses">Total Expenses: <span id="totalExpensesAmount" class="textHarlequin"></span></h3>
+                                <h4 class="balanceAmount">Balance: <span id="balanceAmount" class="textKeppel"></span></h4>
+                            </div>
+                        </div> <!-- expensesPart -->
+                        <div class="savingPart">
+                            <label class="savingFieldTitle fontSize-18 fontWeightNormal mr-15">Save:</label>
+                            <input id="saveInputField" type="text" class="savingFieldBox" placeholder="Please enter your saving amount"> 
+                            <span class="percentText">%</span>
+                            <button id="saveAmountBtn" class="saveAmountBtn" type="button">Save</button>
+                            <h3 class="savingAmountText">Saving Amount: <span id="saveAmount" class="textDeepBlush"></span></h3>
+                            <h4 class="remainingBalance">Remaining Balance: <span id="remainBalance" class="textChileanFire"></span></h4>
+                        </div> <!-- savingPart -->
+                    </div> <!-- managementContentPart -->
+                </div> <!-- col 6 -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section> <!-- management Section -->
+
+
+
+
+   <!-- script file  -->
+   <script src="js/moneyManage.js"></script>
+</body>
+</html>

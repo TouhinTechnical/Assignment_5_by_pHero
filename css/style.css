@@ -1,0 +1,130 @@
+
+/* Reset code */
+body{
+    background: #f1ebe1;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+:focus{
+    outline: 0;
+}
+.overfix{
+    overflow: hidden;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+img{
+    max-width: 100%;
+}
+/* Font */
+.fontSize-18{
+    font-size: 18px;
+}
+.fontWeightNormal{
+    font-weight: 400;
+}
+/* Background */
+.bgAlabaster{
+    background: #f8f8f8;
+}
+/* Alignment */
+.textCenter{
+    text-align: center;
+}
+/* Color */
+.textKeppel{
+    color: #31a5ac;
+}
+.textPastelGreen{
+    color: #5bdb6c;
+}
+.textHarlequin{
+    color: #2ef514;
+}
+.textKeppel{
+    color: #31a5ac;
+}
+.textDeepBlush{
+    color: #df6ca5;
+}
+.textChileanFire{
+    color: #f87408;
+}
+/* Margin */
+.mtb-37{
+    margin: 37px 0;
+}
+.mr-30{
+    margin-right: 30px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+/* Header Part */
+.headingTitleText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0;
+}
+/* managementSection */
+.managementContentPart {
+    padding: 58px 40px 38px 58px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 75px;
+}
+.manageImg{
+    /* width: 700px; */
+    height: 870px;
+}
+.incomeFieldBox[type = "text"],
+.expensesFieldBox[type = "text"],
+.savingFieldBox[type = "text"] {
+    border: 1px solid #dcdcdc;
+    background: #dcdcdc;
+    border-radius: 2px;
+    width: 229px;
+    height: 44px;
+    padding: 0px 18px;
+    display: inline-block;
+    color: #333;
+}
+.savingFieldBox[type = "text"]{
+    width: 50px;
+    margin-right: 15px;
+}
+.calculateBtn,
+.saveAmountBtn {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    padding: 14px 57px;
+    display: inline-block;
+    background: #59A5FF;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+    border: 1px solid #59a5ff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.saveAmountBtn{
+    padding: 11px 40px;
+    margin-left: 15px;
+}
